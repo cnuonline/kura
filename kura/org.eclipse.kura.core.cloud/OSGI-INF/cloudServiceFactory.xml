@@ -6,5 +6,8 @@
       <provide interface="org.eclipse.kura.cloud.factory.CloudServiceFactory"/>
    </service>
    <property name="osgi.command.scope" type="String" value="kura.cloud"/>
-   <property name="osgi.command.function" type="String" value="createConfiguration"/>
+   <property name="osgi.command.function" type="String">
+       createConfiguration
+       deleteConfiguration
+   </property>
 </scr:component>
